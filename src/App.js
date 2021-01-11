@@ -2,13 +2,14 @@ import React from 'react'
 import './styles/styles.scss'
 import Navbar from './components/Navbar'
 import About from './components/About'
+import Banner from './components/Banner'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Sidebar from './components/Sidebar'
 import Netherlands from './images/Netherlands.png';
 import London from './images/London.png';
 import India from './images/India.png';
-import Picture from './images/profile_photo.png';
+
 function App() {
   const aboutLinks = [
     {
@@ -40,6 +41,27 @@ function App() {
       image: India
     }
   ]
+  const projectLinks = [
+    {
+      title: 'World Development Indicators - Exploratory Data Analyis',
+      status:":WIP",
+      description: "",
+      link: "https://github.com/tbhamidipati/EDA-World-Development-Indicators/blob/main/eda-carbon-emissions-gdp-forest-area.ipynb"
+    },
+    {
+      title: 'Classification of Monkey Species',
+      status:"",
+      description: "",
+      link: "https://github.com/tbhamidipati/Classification-Monkey-Species/blob/main/which-monkey-species-do-i-belong-to-93.ipynb"
+    },
+    {
+      title: 'Hosuing Trend in London - Exploratory Data Analyis',
+      status:"",
+      description: "",
+      link: "https://github.com/tbhamidipati/EDA-London-Housing-Trend/blob/main/diving-into-the-london-housing-trend.ipynb"
+    },
+  ]
+
   return <div className="App">
     <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
         <div id="page-wrap">
@@ -47,13 +69,12 @@ function App() {
       <div
         style={{ width: '100%' }}
       >
-        
+       
         <Navbar />
-
-        <img className= "Picture" src={Picture}/>
-        Write here
-        <a href="#about">Learn More</a>
+        <Banner/>
+        
        <About aboutLinks={aboutLinks}></About>
+       <Projects projectLinks={projectLinks}></Projects>
         <Contact/>
         </div>
 

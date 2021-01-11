@@ -1,17 +1,33 @@
-
 import React from 'react'
-import { DiJsBadge, DiHtml5, DiCss3, DiSass, DiReact, DiGithubBadge } from "react-icons/di";
-import { BiWindowOpen } from "react-icons/bi"
+import { DiGithubBadge } from "react-icons/di";
+
+export default ({ projectLinks }) => {
+  return (
+    <section className="projects" id="projects">
+      <h2>My Projects</h2>
+      {
+        projectLinks && projectLinks.map(({ title, status, link, description }, index) =>
+          <div className="project-container">
+            <div className="image">
+            </div>
+            <div className="desc">
+
+              <h3>{title}</h3>
+              <h4>{status}</h4>
+              <p>
+                {description}
+              </p>
 
 
-const Projects = () => {
+              <div className="button-container">
+                <a href={link}><DiGithubBadge /> GitHub</a>
+              </div>
 
-  return <section className="projects" id="projects">
-    <h2>My Projects</h2>
+            </div>
+          </div>
+        )
+      }
 
-
-  </section>
-
+    </section>
+  )
 }
-
-export default Projects

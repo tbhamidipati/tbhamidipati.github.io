@@ -2,12 +2,11 @@ import React from 'react';
 import { FaTwitterSquare, FaLinkedin, FaDev, FaYoutube } from 'react-icons/fa'
 import { DiGithubBadge } from 'react-icons/di'
 import { FiSend } from 'react-icons/fi'
-import HeadShot from '../images/profilepic.png'
+import HeadShot from '../images/headshot.jpg'
 
 const Contact = () => {
 
     return <section className="contact" id="contact">
-      <h2>Connect with Me</h2>
       <div className="headshot">
         <img src={HeadShot} alt='head shot' />
       </div>
@@ -35,7 +34,7 @@ const Contact = () => {
         <input name="name" type="text" placeholder="Your Name"></input>
         <input name="_replyto" type="email" placeholder="Your Email Address"></input>
         <textarea id="message" name="Your Message" placeholder="Your Message"></textarea>
-        <button type="submit"><FiSend /> SUBMIT</button>
+        <button type="submit" className="submit"><FiSend /> SUBMIT</button>
       </form>
     </section>
   }
