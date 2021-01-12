@@ -486,12 +486,15 @@ header {
 .bm-item:focus {
   outline: 0;
 }
+.bm-menu-wrap.burger-menu{
+  background-color: var(--black);
+}
 
 // ABOUT
 
 .about {
   width: 100%;
-  height: 1150px;
+  height: auto;
   top: 110vh;
   background: var(--white);
   display: flex;
@@ -509,6 +512,8 @@ header {
     position: relative;
     padding: 0;
     list-style: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .timeline:before {
     position: absolute;
@@ -688,7 +693,7 @@ header {
 //Projects
 
 .projects {
-  width: 100vw;
+  width: 100%;
   top: 2600px;
   display: flex;
   flex-direction: column;
@@ -696,6 +701,7 @@ header {
   justify-content: center;
   background: black;
   color: var(--darkBlue);
+  padding-bottom: 20px;
 
   h4 {
     padding: 10px;
@@ -797,6 +803,7 @@ header {
   justify-content: center;
   padding-bottom: 20px;
   background-color: var(--lightgrey);
+  height: auto;
 
   h2 {
     font-size: 50px;
@@ -813,7 +820,7 @@ header {
     height: 300px;
     border-radius: 100%;
     overflow: hidden;
-    margin: 0 0 30px 0;
+    margin: 30px 0 30px 0;
 
     img {
       width: 100%;
@@ -935,21 +942,8 @@ header {
 // MEDIA QUERIES
 
 @media only screen and (min-width: 1600px) {
-  .custom-bg {
-    width: 100%;
-  }
-
-  header {
-    width: 1600px;
-    left: calc( (100vw - 1600px) / 2);
-  }
-
-  .fixed {
-    left: calc( (100vw - 1600px) / 2);
-  }
-
+  
   .about,  .projects {
-    width: 1600px; 
     left: calc( (100vw - 1600px) / 2);
   }
 
@@ -1005,7 +999,7 @@ header {
   
 
   .about {
-    height: 1200px;
+    
 
     img {
       bottom: -190px;
@@ -1047,10 +1041,6 @@ header {
     display: none;
   }
 
-  .about {
-    height: 1500px;
-  }
- 
   .skills {
     max-width: 400px;
   }
@@ -1070,9 +1060,7 @@ header {
 
 @media only screen and (max-width: 400px) {
 
-  .about {
-    height: 2000px;
-  }
+  
 
   .projects {
     top: 3150px;

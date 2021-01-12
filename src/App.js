@@ -55,7 +55,7 @@ function App() {
       link: "https://github.com/tbhamidipati/Classification-Monkey-Species/blob/main/which-monkey-species-do-i-belong-to-93.ipynb"
     },
     {
-      title: 'Hosuing Trend in London - Exploratory Data Analyis',
+      title: 'Housing Trend in London - Exploratory Data Analyis',
       status:"",
       description: "",
       link: "https://github.com/tbhamidipati/EDA-London-Housing-Trend/blob/main/diving-into-the-london-housing-trend.ipynb"
