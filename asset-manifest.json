@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b284cf5c.chunk.css",
-    "main.js": "/static/js/main.0ee62802.chunk.js",
-    "main.js.map": "/static/js/main.0ee62802.chunk.js.map",
+    "main.css": "/static/css/main.2baae41d.chunk.css",
+    "main.js": "/static/js/main.36eb2e84.chunk.js",
+    "main.js.map": "/static/js/main.36eb2e84.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b7b72ba3.js",
     "runtime-main.js.map": "/static/js/runtime-main.b7b72ba3.js.map",
     "static/js/2.0e8df06e.chunk.js": "/static/js/2.0e8df06e.chunk.js",
     "static/js/2.0e8df06e.chunk.js.map": "/static/js/2.0e8df06e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b284cf5c.chunk.css.map": "/static/css/main.b284cf5c.chunk.css.map",
+    "static/css/main.2baae41d.chunk.css.map": "/static/css/main.2baae41d.chunk.css.map",
     "static/js/2.0e8df06e.chunk.js.LICENSE.txt": "/static/js/2.0e8df06e.chunk.js.LICENSE.txt",
     "static/media/India.86158db5.png": "/static/media/India.86158db5.png",
     "static/media/London.b7c49754.png": "/static/media/London.b7c49754.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b7b72ba3.js",
     "static/js/2.0e8df06e.chunk.js",
-    "static/css/main.b284cf5c.chunk.css",
-    "static/js/main.0ee62802.chunk.js"
+    "static/css/main.2baae41d.chunk.css",
+    "static/js/main.36eb2e84.chunk.js"
   ]
 }
