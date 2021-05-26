@@ -13,9 +13,16 @@ import India from './images/India.png';
 function App() {
   const aboutLinks = [
     {
-      time: 'Feb 2019 - Present',
+      time: 'June 2021 - Present',
+      location: 'Microsoft, Netherlands',
+      position:"Cloud Solution Architect",
+      description: "",
+      image: Netherlands
+    },
+    {
+      time: 'Feb 2019 - May 2021',
       location: 'KPMG, Netherlands',
-      position:"Software Engineer",
+      position:"Software Engineer, Technology Consultant",
       description: "",
       image: Netherlands
     },
